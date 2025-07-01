@@ -1,0 +1,41 @@
+
+    basename = ./output/test 
+    geometry_file = geo_input.h5
+    reference_file = references.in 
+
+    ! free-stream condition 
+    u_inf = (/-50.0 , 0 , 0/)
+    rho_inf = 1.225
+
+    ! Timing 
+    tstart = 0.
+    tend = 0.6878434441543967
+    dt = 0.0011941726461013832 
+    dt_out = 0.0011941726461013832 
+
+    ! Model param 
+    penetration_avoidance = T
+
+    ! wake param 
+    !rigid_wake = F
+    n_wake_panels = 1
+    n_wake_particles = 500000
+    particles_box_min = (/  -150, -15, -5 /)
+    particles_box_max = (/  5,  15,  5/)
+
+    ! FMM 
+    fmm = T
+    vortstretch = F
+    diffusion = F
+
+    !! octree param 
+    box_length = 10
+    n_box = (/16, 2 , 2/)
+    octree_origin = (/ -150, -10, -10/)
+
+
+    !!
+    n_octree_levels = 5
+    min_octree_part =5
+    multipole_degree = 2
+    

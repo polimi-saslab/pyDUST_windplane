@@ -1,0 +1,17 @@
+! Hub 
+comp_name = Rotorl
+geo_file = blade_left.in
+ref_tag = Hub_l
+
+! Hub 
+comp_name = Rotorr
+geo_file = blade_right.in
+ref_tag = Hub_r 
+
+! wing 
+comp_name = Wing 
+geo_file = wing.in
+ref_tag = Wing 
+
+! .hdf5 geo file 
+file_name = geo_input.h5

@@ -1,0 +1,35 @@
+mesh_file_type = parametric
+el_type = v
+
+mesh_symmetry = T
+symmetry_point   = (/0.0 ,0.0,  0.0/)
+symmetry_normal = (/0.0 , 1.0,  0.0/)
+
+starting_point = (/0.0,0.0,0.0/)
+reference_chord_fraction = 0.25
+
+nelem_chord = 40
+type_chord = uniform ! uniform cosineLE cosineTE
+
+
+! section
+chord = 2.43
+twist = 0.0 ! deg
+airfoil = NACA4421
+airfoil_table = ./airfoil_table/naca4421.c81
+
+! region
+span = 5.000000
+sweep = 0.0 ! deg
+dihed = 20.0 ! deg
+nelem_span = 30
+type_span = cosineOB
+
+! section
+chord = 1.48
+twist = 0.0 ! deg
+airfoil = NACA4421
+airfoil_table = ./airfoil_table/naca4421.c81
+
+
+

@@ -1,0 +1,103 @@
+
+    data_basename = output/test 
+    basename = postpro/test
+    !
+    ! Visualisation 
+    analysis = {
+        type = viz
+        name = visual 
+        start_res = 1 
+        end_res = 576
+        step_res = 1
+        format = vtk ! tecplot  
+        wake = T 
+        !separate_wake = T 
+        variable = vorticity_vector
+        variable = vorticity
+        variable = cp
+        variable = pressure
+    }
+
+    analysis = {
+        type = sectional_loads
+        name = sec_wing
+        start_res = 1
+        end_res = 576
+        step_res = 1
+        format = dat
+        average = F
+        component = Wing
+        axis_nod = (/ 0.0, 0.0, 0.0 /)
+        axis_dir = (/ 0.0, 1.0, 0.0 /)
+        lifting_line_data = F
+        vortex_lattice_data = T
+    }
+
+    analysis = {
+        type = integral_loads
+        name = int_wing
+        start_res = 1
+        end_res = 576
+        step_res = 1
+        format = dat
+        component = Wing
+        reference_tag = 0
+    }
+
+
+    analysis = {
+        type = sectional_loads
+        name = sec_rot_left
+        start_res = 1
+        end_res = 576
+        step_res = 1
+        format = dat
+        average = F
+        component = Rotorl__01
+        axis_nod = (/ 0.0, 0.0, 0.0 /)
+        axis_dir = (/ 0.0, 1.0, 0.0 /)
+        lifting_line_data = T
+        vortex_lattice_data = F
+        reference_tag = Hub_l
+    }
+    
+    analysis = {
+        type = integral_loads
+        name = int_rot_left
+        start_res = 1
+        end_res = 576
+        step_res = 1
+        format = dat
+        component = Rotorl
+        average = F
+        reference_tag = Hub_l
+    }
+
+    analysis = {
+        type = sectional_loads
+        name = sec_rot_right
+        start_res = 1
+        end_res = 576
+        step_res = 1
+        format = dat
+        average = F
+        component = Rotorr__01
+        axis_nod = (/ 0.0, 0.0, 0.0 /)
+        axis_dir = (/ 0.0, 1.0, 0.0 /)
+        lifting_line_data = T
+        vortex_lattice_data = F
+        reference_tag = Hub_r
+    }
+
+    analysis = {
+        type = integral_loads
+        name = int_rot_right
+        start_res = 1
+        end_res = 576
+        step_res = 1
+        format = dat
+        component = Rotorr
+        average = F
+        reference_tag = Hub_r
+    }
+    

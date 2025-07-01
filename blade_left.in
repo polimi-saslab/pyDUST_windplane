@@ -1,0 +1,537 @@
+mesh_file_type = parametric
+el_type = l !v, l
+
+reference_chord_fraction = 0.25
+starting_point = (/0.0, 0.0, 0.0/)
+
+mesh_mirror = T
+mirror_point = (/0.0 , 0.0 , 0.0/)
+mirror_normal = (/1.0 , 0.0 , 0.0/)
+
+
+! section
+chord = 0.078
+twist = 120.0 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.082
+twist = 121.2 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.089
+twist = 122.9 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.102
+twist = 124.6 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.115
+twist = 126.5 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.129
+twist = 128.4 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.142
+twist = 130.3 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.154
+twist = 132.2 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.165
+twist = 134.0 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.175
+twist = 135.6 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.184
+twist = 137.2 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.192
+twist = 138.7 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.198
+twist = 140.1 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.202
+twist = 141.4 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.206
+twist = 142.6 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.208
+twist = 143.8 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.209
+twist = 144.9 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.208
+twist = 146.0 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.207
+twist = 147.0 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.205
+twist = 147.9 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.202
+twist = 148.8 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.198
+twist = 149.6 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.193
+twist = 150.4 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.187
+twist = 151.2 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.180
+twist = 151.8 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.173
+twist = 152.5 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.166
+twist = 153.1 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.157
+twist = 153.6 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.149
+twist = 154.1 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.140
+twist = 154.6 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.130
+twist = 155.0 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.120
+twist = 155.3 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.110
+twist = 155.6 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.100
+twist = 155.9 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.090
+twist = 156.1 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.079
+twist = 156.3 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.069
+twist = 156.5 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.059
+twist = 156.9 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.050
+twist = 157.4 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.041
+twist = 158.4 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+
+! region
+span = 0.026000
+sweep = 0.0 ! deg
+dihed = 0.0 ! deg
+nelem_span = 1
+type_span = uniform
+
+! section
+chord = 0.033
+twist = 160.1 ! deg
+airfoil_table = ./airfoil_table/naca4421.c81
+airfoil = NACA4421
+

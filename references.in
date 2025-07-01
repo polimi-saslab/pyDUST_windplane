@@ -1,0 +1,50 @@
+
+! Fix reference
+reference_tag = Fix
+parent_tag = 0  ! 0 : absolute reference frame
+origin = (/0.,0.,0./)
+orientation = (/1.,0.,0., 0.,1.,0., 0.,0.,1./)
+multiple = F
+moving = F
+ 
+! Wing reference
+reference_tag = Wing
+parent_tag = Fix
+origin = (/0.,0.,0./)
+orientation = (/-0.9816271834476641,0.,0.19080899537654475, 0.,1.,0., -0.19080899537654475,0.,-0.9816271834476641/)
+multiple = F
+moving = F
+ 
+! Left Rotor reference
+reference_tag = Hub_l
+parent_tag = Wing
+origin = (/-1.5,-5.26,1.8/)
+orientation = (/-0.9816271834476639,0.,-0.19080899537654494, 0.,1.,0., 0.19080899537654494,0.,-0.9816271834476639/)
+moving = F
+multiple = T
+multiplicity = {
+    mult_type = rotor
+    n_blades = 3
+    rot_axis = (/1., 0., 0./)
+    rot_rate = 73.07692307692308 ! rad/s
+    psi_0 = 0 ! rad
+    hub_offset = 0.26
+    n_dofs = 0
+}
+ 
+! Right Rotor reference
+reference_tag = Hub_r
+parent_tag = Wing
+origin = (/-1.5,5.26,1.8/) ! 1.32
+orientation = (/-0.9816271834476639,0.,-0.19080899537654494, 0.,1.,0., 0.19080899537654494,0.,-0.9816271834476639/)
+moving = F
+multiple = T
+multiplicity = {
+    mult_type = rotor
+    n_blades = 3
+    rot_axis = (/1., 0., 0./)
+    rot_rate = -73.07692307692308 ! rad/s (opposite direction for right rotor)
+    psi_0 = 0 ! rad
+    hub_offset = 0.26
+    n_dofs = 0
+}
