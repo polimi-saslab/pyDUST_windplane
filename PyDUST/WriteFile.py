@@ -19,7 +19,7 @@ moving = F
 ! Left Rotor reference
 reference_tag = Hub_l
 parent_tag = Wing
-origin = (/-1.5,-5.26,1.8/)
+origin = (/-1.5,-5.2,0/)
 orientation = (/{Rt_11},0.,{Rt_13}, 0.,1.,0., {Rt_31},0.,{Rt_11}/)
 moving = F
 multiple = T
@@ -36,7 +36,7 @@ multiplicity = {{
 ! Right Rotor reference
 reference_tag = Hub_r
 parent_tag = Wing
-origin = (/-1.5,5.26,1.8/) ! 1.32
+origin = (/-1.5,5.2,0/) ! 1.32
 orientation = (/{Rt_11},0.,{Rt_13}, 0.,1.,0., {Rt_31},0.,{Rt_11}/)
 moving = F
 multiple = T
