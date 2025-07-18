@@ -21,15 +21,14 @@ airfoil_table = ./airfoil_table/naca4421.c81
 ! region
 span = 5.000000
 sweep = 0.0 ! deg
-dihed = 20.0 ! deg
+dihed = 0.0 ! deg
 nelem_span = 30
 type_span = cosineOB
 
 ! section
-chord = 1.48
+chord = 1.47
 twist = 0.0 ! deg
 airfoil = NACA4421
 airfoil_table = ./airfoil_table/naca4421.c81
-
 
 
